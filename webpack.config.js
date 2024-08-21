@@ -8,34 +8,35 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   devtool: 'inline-source-map',
-  plugins: [
-    new HtmlWebpackPlugin({
-        template: './src/template.html',
-        title: 'Development',
-    }),
-    new MiniCssExtractPlugin(),
-  ],
+  output: {
+    filename: 'index.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+  },
   module: {
     rules: [
       {
             test: /\.css$/,
-            use: [MiniCssExtractPlugin.loader, "css-loader"],
+            use: [{ loader: MiniCssExtractPlugin.loader,}, "css-loader"],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif|wav|mp3)$/i,
         type: 'asset/resource',
        
       }
     ]
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+        template: './src/index.html'
+    }),
+    new MiniCssExtractPlugin(),
+  ],
+
   optimization: {
     minimizer: [
       new CssMinimizerPlugin(),
     ],
   },
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
-  },
+ 
 };
