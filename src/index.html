@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/style.css">
     <title>Home Page</title>
 </head>
 <body>
-    
+    <main>
+        <section class="intro">
+            <picture class="portrait">
+                <source media="(max-width: 500px)" srcset="/src/img/portrait.jpg">
+                <img src="/src/img/portrait.jpg" alt="Portrait of Freddy">
+            </picture>
+            <div class="intro-text">
+                <h2>Hi There,</h2>
+                <h1>I am <span class="name">Freddy Carrillo</span></h1>
+                <p>An inspiring self-learning Software Developer. Check out some of my work below.</p>
+            </div>
+        </section>
+    </main>
+    <footer>Footer some info content</footer>
 </body>
+<script src="index.js"></script>
 </html>

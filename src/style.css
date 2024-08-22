@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(207, 255, 205);
+}
+
+main {
+    font-family: "Moderustic", sans-serif;
+    padding: 10px;
+    margin: 0px auto;
+    max-width: 2000px;
+
+   
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.portrait {
+   width: 35%;
+   height: auto;
+}
+.portrait img{
+    width: 100%;
+    display: block;
+}
+
+.intro-text {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    max-width: 450px;
+    background-color: transparent;
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+.intro-text h1 {
+    font-size: 2.7em;
+}
+.name {
+    color: green;
+}
+
+.intro-text h2 {
+    font-size: 1.7em;
+}
+
+.intro-text p {
+    font-size: 1.3em;
+}
