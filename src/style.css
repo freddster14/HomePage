@@ -8,8 +8,8 @@
 body {
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
-    background-color: rgb(207, 255, 205);
+    background-color: rgb(106, 171, 224);
+    overflow-x: hidden;
 }
 
 main {
@@ -17,19 +17,22 @@ main {
     padding: 10px;
     margin: 0px auto;
     max-width: 2000px;
-
-   
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
 }
 
 .intro {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 25px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.76);
 }
 
 .portrait {
-   width: 35%;
+   width: 50%;
    height: auto;
 }
 .portrait img{
@@ -41,7 +44,7 @@ main {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    max-width: 450px;
+    width: 45%;
     background-color: transparent;
     gap: 5px;
     background-color: rgb(255, 255, 255);
@@ -61,4 +64,58 @@ main {
 
 .intro-text p {
     font-size: 1.3em;
+}
+
+.projects-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+.projects-container h1 {
+    margin: 20px;
+    font-size: 2.7em;
+}
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    justify-items: center;
+    row-gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 10px;
+    margin: 15px 0px;
+    background-color: white;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.603);
+}
+
+.project-ss {
+    max-width: 500px;
+    height: auto;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    gap: 10px;
+    padding: 5px 30px 0px 30px;
+}
+
+.card-info h2 {
+    margin-right: auto;
+}
+
+.card-info img {
+    width: 30px;
+}
+
+.card-description {
+    padding: 0px 30px 30px 30px;
+    font-size: 1.15em;
 }
