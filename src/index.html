@@ -11,7 +11,7 @@
     <main>
         <section class="intro">
             <picture class="portrait">
-                <source media="(max-width: 500px)" srcset="/src/img/portrait.jpg">
+                <source media="(max-width: 1112px)" srcset="/src/img/portrait-cropped.jpg">
                 <img src="/src/img/portrait.jpg" alt="Portrait of Freddy">
             </picture>
             <div class="intro-text">
@@ -77,17 +77,26 @@
         </section>
     </main>
     <footer>
-        <div class="text-box-footer">
-            <h1>Contact Me</h1>
-            <h2>Get in contact if anythig caught your eye!</h2>
-            <h3>1234 Some Road <br>Some Town, Texas 12345</h3>
-        </div>
-        <div class="content-footer">
-            <p><img src="" alt="Cell Phone">555-555-5555</p>
-            <p><img src="" alt="Email Envolope">freddycarrillo951@gmail.com</p>
-        </div>
-        <a href=""><img src="" alt="Github"></a>
-        <a href=""><img src="" alt="LinkedId"></a>
+        <section class="footer-section">
+            <div class="footer-info">
+                <h1>Contact Me</h1>
+                <h2>Get in contact if anything caught your eye!</h2>
+                <h3>1234 Some Road <br>Some Town, Texas 12345</h3>
+                <div class="contact-footer">
+                    <p><img src="/src/img/cell-phone.svg" alt="Cell Phone">555-555-5555</p>
+                    <p><img src="/src/img/email.svg" alt="Email Envolope">freddycarrillo951@gmail.com</p>
+                </div>
+                <div class="footer-links">
+                    <a href=""><img src="/src/img/github-mark.svg" alt="Freddy Github"></a>
+                    <a href=""><img src="/src/img/linkedin-mark.svg" alt=" Freddy LinkedId"></a>
+                </div>
+            </div>
+            <picture>
+                <source media="(max-width: 1200px)" srcset="/src/img/dogs-small.jpg">
+                <source media="(max-width: 1669px)" srcset="/src/img/dogs-cropped.jpg">
+                <img src="/src/img/dogs.jpg" alt="Brown dog and black dog playing outdoors">
+            </picture>
+        </section>
     </footer>
 </body>
 <script src="index.js"></script>
