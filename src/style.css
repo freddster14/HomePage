@@ -46,7 +46,7 @@ main {
     justify-content: center;
     width: 45%;
     background-color: transparent;
-    gap: 5px;
+    gap: 7px;
     background-color: rgb(255, 255, 255);
     padding: 50px;
 }
@@ -176,11 +176,12 @@ footer {
 
 .footer-section picture img {
     width: 100%;
+    display: block;
 }
 
 @media screen and (max-width: 1112px) {
     body, footer, main {
-        font-size: 0.9em;
+        font-size: 0.95em;
     }
 
     .intro {
@@ -201,23 +202,79 @@ footer {
         text-align: center;
     }
     .intro-text p {
-        width: 66.5%;
-        text-align: start;
+        width: 80%;
         align-self: center;
+    }
+
+    .projects-container {
+        margin-top: 37px;
     }
 
     .grid-container {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 
-    .card-info img {
-        
-    }    
 
-  
+    .footer-info {
+        gap: 18px;
+        width: 35%;
+    }
+
+    .contact-footer img {
+        max-width: 35px;
+    }
+
+    .contact-footer p {
+        word-break: break-all;
+   }
+
+    .footer-links img {
+        max-width: 45px;
+    }
+
+   
+
+    .footer-section picture {
+        width: 55%;
+    }
 
 }
 
-@media screen and (max-width: ) {
+@media screen and (max-width: 750px) {
+
+   
+
+    .footer-section {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+    .footer-info {
+        max-width: 350px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-footer p {
+        justify-content: center;
+    }
+
+    .footer-section picture {
+        width: 100%;
+    }
+
     
+    
+}
+
+@media screen and (max-width: 500px) {
+
+     body, footer, main {
+        font-size: 0.875em;
+    }
+
+   
+
+   
 }
