@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/freddster14/template#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.1",
     "css-minimizer-webpack-plugin": "^6.0.0",
     "html-webpack-plugin": "^5.6.0",
