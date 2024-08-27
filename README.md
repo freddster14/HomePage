@@ -1,4 +1,4 @@
-# Project Name
+# Home Page
 Live Preview: [Click Here](https://freddster14.github.io/HomePage/)
 ## Technologies Used
 
@@ -7,4 +7,4 @@ Live Preview: [Click Here](https://freddster14.github.io/HomePage/)
 * Webpack
 
 ## Description
-My web portfolio that showcases my recent work and footer with contact info.
+My home page that showcases my recent work, my dogos, myself, and contact info.
