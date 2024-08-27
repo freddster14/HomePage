@@ -21,6 +21,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    position: relative;
 }
 
 .intro {
@@ -35,7 +36,7 @@ main {
     background-color: rgb(63, 156, 125);
     position: absolute;
     width: 100vw;
-    height: 75%;
+    height: 50%;
     filter: blur(1px);
     z-index: -1;
     animation: hover-effect 4s ease-in-out infinite alternate;
@@ -43,10 +44,10 @@ main {
 
 @keyframes hover-effect {
     from {
-        transform:translateY(-65%) skewY(-15deg)
+        transform:translateY(-70%) skewY(-12deg)
     }
     to {
-        transform:translateY(-60%) skewY(-15deg)
+        transform:translateY(-65%) skewY(-12deg)
     }
 }
 
@@ -314,7 +315,11 @@ footer {
         box-shadow: none;
         flex-direction: column;
     }
-    
+
+    .intro::before {
+        top: -9%;
+    }
+
     .portrait, .intro-text {
        width: 90%;
     }
