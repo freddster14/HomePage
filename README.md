@@ -1,5 +1,5 @@
 # Project Name
-Live Preview: [Click Here]()
+Live Preview: [Click Here](https://freddster14.github.io/HomePage/)
 ## Technologies Used
 
 * HTML5
