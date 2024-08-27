@@ -36,7 +36,8 @@ main {
     background-color: rgb(63, 156, 125);
     position: absolute;
     width: 115vw;
-    height: 70vw;
+    height: 55vw;
+    top: 8%;
     filter: blur(1px);
     z-index: -1;
     animation: hover-effect 4s ease-in-out infinite alternate;
@@ -344,7 +345,6 @@ footer {
 }
 
 @media screen and (max-width: 750px) {
-
     .footer-section {
         flex-direction: column;
         width: 100%;
@@ -374,6 +374,7 @@ footer {
      body, footer, main {
         font-size: 0.875em;
     }
+    
 
 
 }
