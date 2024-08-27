@@ -197,6 +197,30 @@ footer {
     font-size: 1.5em;
 }
 
+.eye-emoji {
+    display: inline-block;
+    font-size: 1.1em;
+    margin-left: 7px;
+    animation: blink 5s ease-in infinite 5s;
+}
+
+@keyframes blink {
+    from{
+        transform: rotateX(0deg);
+    }
+    5% {
+        transform: rotateX(85deg);
+    }
+    10% {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+
+
 .contact-footer {
     font-size: 1.1em;
 }
