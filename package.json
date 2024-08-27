@@ -2,7 +2,6 @@
   "name": "HomePage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
@@ -10,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zeronicc/template.git"
+    "url": "git+https://github.com/freddster14/template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zeronicc/template/issues"
+    "url": "https://github.com/freddster14/template/issues"
   },
-  "homepage": "https://github.com/Zeronicc/template#readme",
+  "homepage": "https://github.com/freddster14/template#readme",
   "devDependencies": {
     "css-loader": "^7.1.1",
     "css-minimizer-webpack-plugin": "^6.0.0",

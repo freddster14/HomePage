@@ -5,11 +5,10 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 
 module.exports = {
-  mode: 'development',
-  entry: './src/index.js',
+  mode: 'production',
+  entry: {},
   devtool: 'inline-source-map',
   output: {
-    filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
@@ -28,7 +27,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        template: './src/index.html'
+        template: './src/index.html',
+        inject: false,
     }),
     new MiniCssExtractPlugin(),
   ],
