@@ -1,5 +1,5 @@
 # Home Page
-Live Preview: [Click Here](https://freddster14.github.io/HomePage/)
+Live Preview: [Click Here](https://home-page-ten-gray.vercel.app/)
 ## Technologies Used
 
 * HTML5
