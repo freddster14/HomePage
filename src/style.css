@@ -124,6 +124,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
     gap: 1rem;
     margin-top: 3rem;
 }
